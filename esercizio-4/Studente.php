@@ -16,7 +16,7 @@
             $this->matricola = $matricola;
         }
 
-        public function stampaAutomobile(){
+        public function presentati(){
             echo parent::presentati().", il mio numero di matricola è: ".$this->matricola;
         }
 
